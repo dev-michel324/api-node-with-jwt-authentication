@@ -4,7 +4,6 @@ const Users = require("./../models/Users");
 const validators = require("./../../validators/validator");
 
 const bcrypt = require("bcryptjs");
-const { validateDataToUpdateUser } = require("./../../validators/validator");
 
 class UserController{
 
