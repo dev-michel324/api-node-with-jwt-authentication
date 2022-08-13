@@ -19,5 +19,11 @@ Install the dependencies using the package.json with the command:
 To test the application, below has all routes to test:   
 
 * (post) -> /user => create a user, don't forget of send your json on the request.
-* (post) -> /login => return a json with jwt token. Is necessary, send **username** and **password** in the json to work.
-* (get) -> /user => return your user. To it work, is need send the jwt token.
+* (post) -> /login => return a json with jwt token. Is need, send **username** and **password** in the json to work.
+* (get) -> /user => return your user. To it work, is need send the jwt token.   
+
+## RUN APPLICATION
+
+To run the application, run this command:
+
+`node src/server.js`
